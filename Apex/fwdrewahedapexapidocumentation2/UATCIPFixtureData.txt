@@ -1,9 +1,0 @@
-##UAT CIP Fixture Data
-You must have a zero (0) character in either the given or family name field
-You must use one of the following 666 social security number patterns
-  666-00-xxxx (results in an immediate COMPLETE)
-  666-01-xxxx (results in an immediate SUSPENDED)
-  666-02-xxxx (results in an immediate INDETERMINATE)
-  666-03-xxxx (results in a delayed COMPLETE)
-  666-04-xxxx (results in a delayed SUSPENDED)
-  666-05-xxxx (results in a delayed INDETERMINATE)
