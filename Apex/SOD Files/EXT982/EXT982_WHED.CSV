@@ -1,0 +1,1 @@
+AccountNumber,Firm,OfficeCode,StrategyId,StrategySequence,AccountType,CUSIP,TradeQuantity,Symbol,Description,ClosingPrice,MarketValue,SecurityTypeCode,UnderlyingSymbol,StrikePrice,ISIN,Change,PositionType,ProcessDate,IsSelling,MaintenanceRequirement,ConcentrationRequirement,OptionStrategy,OptionLeg,StrategyMaintenanceRequirement,StrategyConcentrationRequirement

@@ -1,0 +1,28 @@
+
+var DepWithAmt = Users new deposite/withdrwal amonut;
+
+IF there is change in DepWithAmt THEN
+	
+	IF users current portfolio == 'Moderately Aggressive' AND DepWithAmt < $12500 THEN
+		Assign new portfolio 'Moderately Aggressive B';
+	ELSE IF users portfolio == 'Moderately Aggressive B' AND DepWithAmt > $12500 THEN
+		Assign new portfolio 'Moderately Aggressive';
+	END IF;
+
+	IF users current portfolio == 'Aggressive' AND DepWithAmt < $17000 THEN
+		Assign new portfolio 'Aggressive B';
+	ELSE IF users portfolio == 'Aggressive B' AND DepWithAmt > $17000 THEN
+		Assign new portfolio 'Aggressive';
+	END IF;
+	
+	IF users current portfolio == 'Very Aggressive' AND DepWithAmt < $75000 THEN
+		Assign new portfolio 'Very Aggressive B';
+	ELSE IF users portfolio == 'Very Aggressive B' AND DepWithAmt > $75000 THEN
+		Assign new portfolio 'Very Aggressive';
+	END IF;
+
+	IF users current portfolio == 'Very Conservative' OR users current portfolio == 'Moderately Conservative' OR users current portfolio == 'Moderate' THEN
+		Do nothing;
+	END IF;
+
+END if;
